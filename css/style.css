@@ -1,0 +1,230 @@
+
+.resizecontainer{
+  width: 1236px;
+  height: 2570px;
+  margin: auto;
+}
+.header
+{
+  margin-top: 10px;
+    width: 1203px;
+    height: 70px;
+}
+.logo{
+    width: 186.99px;
+    height: 70.99px;
+    float: left;    
+    margin-right: 18px;
+}
+.Community-name
+{
+    width: 1031px;
+    height: 30px;
+}
+.menu-bar {
+    height: 80px;
+    display: flex;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+  }
+  
+  .menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s;
+    color: #FFFFFF;
+
+  }
+  
+  .menu-bar ul li a:hover {
+    color: lightblue;
+    z-index: 1000;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+      
+    background-color:#c4bc8f;
+    z-index: 1000;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    z-index: 1000
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+   
+    z-index: 1000
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    background-color:#d4d0b9 ;
+    z-index: 1000
+  }
+nav
+{
+    width: 998px;
+    height: 40px; 
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+}
+
+    
+    
+ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+body{
+    background-image: url(/img/stardewbackground.png);
+    background-attachment: fixed;
+    position: relative;
+   
+}
+.page-header_title{
+    font-size: 36px;
+    font-weight: 300;  
+}
+
+.page{
+    height: 2300px;
+    background-color:rgb(223, 219, 195,.7);
+    color: #3a3a3a;
+    margin-top: 50px;
+    position: relative;
+    padding: 24px ;   
+}
+ .page-content .center
+ { 
+  text-align: center;
+}
+.footer{
+  margin-top:  30px; 
+  background-color: #280033;
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-left: -10px;
+  margin-bottom: -20px;
+  padding:   70px  20px  40px;
+  width: 105%;
+}
+  
+.footer-content 
+{
+      grid-column-gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      margin: 0;
+      padding: 70px 20px 40px;
+      width: 100%;
+      
+}
+div.footer .footer-content div.content-2  ul li a:hover{
+  transition: all 0.5s;
+  color: brown;
+ 
+}
+
+
+  
+
+.footer-content .content3{
+  text-decoration: none;
+}
+
+.img-gif{
+  float: right;
+}
+
+
+.table-basic{
+  position: relative;
+  left: 100px;
+  font-weight: bold;
+}
+.table-interaction{
+  position: relative;
+  left: 80px;
+  font-weight: bold;
+  
+}
+.td-items1{
+  position: relative;
+  left: 100px;
+  font-weight: bold;
+}
+.td-items2{
+  position: relative;
+  left: 285px;
+  font-weight: bold;
+}
+
+html{
+  font-size: 100%;
+}
+html, body{
+  font-family: sans-serif;
+}
+
+td.td{
+  border: 1px solid #8DCAF0;
+  padding: 0.2em;
+  background-color: rgba(255,255,255,0.58);
+}
+a{
+  text-decoration: none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 25%;
+
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
